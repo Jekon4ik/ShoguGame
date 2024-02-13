@@ -24,10 +24,15 @@ namespace ShoguGame
             this.y = y;
             this.piece = piece;
         }
-        public void setX(int x) { this.x = x;}
-        public int getX() { return x; }
-        public void setY(int y) { this.y = y; }
-        public int getY() { return y; }
+        public int X {  
+            get { return x; } 
+            set { x = value; }
+        }
+        public int Y
+        {
+            get { return y; }
+            set { y = value; }
+        }
         public void setPiece(Piece piece) {  this.piece = piece; }
         public Piece getPiece() {  return piece; }
 
