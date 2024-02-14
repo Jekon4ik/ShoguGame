@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ShoguGame
 {
-    internal class Board
+    public  class Board
     {
+        private Spot[,] gameField;
+        public Board() { }
+
+        public void getBox(int x, int y)
+        {
+
+        }
     }
 }

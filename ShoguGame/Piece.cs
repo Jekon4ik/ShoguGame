@@ -24,5 +24,10 @@ namespace ShoguGame
             get { return isAlive; }
             set {isAlive = value; }
         }
+
+        public void Output()
+        {
+
+        }
     }
 }
